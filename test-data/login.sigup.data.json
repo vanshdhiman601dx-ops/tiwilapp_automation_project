@@ -1,0 +1,14 @@
+{
+  "signup": [
+    {
+      "name": "Vansh",
+      "firstName": "Vansh",
+      "lastName": "Dhiman",
+      "email": "vanshdhiman601.dx@gmail.com",
+      "otpEntry": "manual",
+      "phoneNumber": "9034673591",
+      "gender": "Male",
+      "dateOfBirth": "2004-12-12"
+    }
+  ]
+}

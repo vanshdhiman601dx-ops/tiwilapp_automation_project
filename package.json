@@ -1,0 +1,25 @@
+{
+  "name": "tiwil-android-automation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JavaScript and Playwright environment for TIWIL Android automation",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "appium:start": "node helpers/appium-cli.js",
+    "android:doctor": "node helpers/appium-cli.js driver doctor uiautomator2",
+    "android:verify": "node helpers/verify-android-session.js",
+    "test:list": "playwright test --list",
+    "test:onboard": "playwright test flows/onbardingflow/tests/onboard.spec.js",
+    "report": "playwright show-report reports/html",
+    "playwright:version": "playwright --version",
+    "android:version": "node helpers/android-tools.js version",
+    "android:devices": "node helpers/android-tools.js devices -l"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "playwright": "1.63.0",
+    "webdriverio": "10.1.0"
+  }
+}

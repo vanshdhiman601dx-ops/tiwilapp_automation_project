@@ -1,0 +1,10 @@
+node_modules/
+.npm-cache/
+tools/
+test-results/
+playwright-report/
+blob-report/
+.env
+reports/
+logs/
+playwright/auth/
